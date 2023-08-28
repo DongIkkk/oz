@@ -60,6 +60,9 @@
     </td>
     </tr>
 </table>
+
+## ![시스템 아키텍쳐](assets/stack.png)
+
 </div>
 
 ---
@@ -137,7 +140,8 @@
 
 ## 🏗️**서비스 아키텍쳐**
 
-## ![시스템 아키텍쳐](assets/stack.png){: width="600" height="500"){: .center}
+## <img width="100%" src="https://github.com/fire4bird/oz/assets/105307294/f9fcb09b-05da-472e-9c99-5cbd66b0b93c"/> 
+
 
 ## 🔎**서비스 기능 소개**
 
