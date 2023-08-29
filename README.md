@@ -67,6 +67,169 @@
 
 ---
 
+### 🗂️ 프로젝트 파일 구조
+
+
+
+### Back
+
+```
+📦BackEnd
+ ┣ 📂aop
+ ┣ 📂common
+ ┣ 📂config
+ ┣ 📂emailcode
+ ┃ ┣ 📂key
+ ┃ ┣ 📂mapper
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+ ┣ 📂error
+ ┃ ┗ 📂record
+ ┣ 📂game
+ ┃ ┣ 📂calculation
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂request
+ ┃ ┃ ┃ ┗ 📂response
+ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┣ 📂manager
+ ┃ ┃ ┣ 📂mapper
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂catchmind
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┗ 📂req
+ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┣ 📂manager
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂puzzle
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┗ 📂req
+ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┣ 📂manager
+ ┃ ┃ ┣ 📂mapper
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┗ 📂trap
+ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┣ 📂req
+ ┃ ┃ ┃ ┗ 📂res
+ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┣ 📂manager
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┣ 📂jwt
+ ┃ ┣ 📂blacklist
+ ┃ ┃ ┣ 📂key
+ ┃ ┃ ┣ 📂mapper
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┃ ┣ 📂refresh
+ ┃ ┃ ┣ 📂key
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┗ 📂service
+ ┣ 📂rank
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┣ 📂mapper
+ ┃ ┗ 📂service
+ ┣ 📂record
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┣ 📂entity
+ ┃ ┣ 📂mapper
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+ ┣ 📂round
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┃ ┣ 📂Req
+ ┃ ┃ ┗ 📂Res
+ ┃ ┣ 📂entity
+ ┃ ┣ 📂mapper
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+ ┣ 📂socket
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+ ┣ 📂team
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┣ 📂entity
+ ┃ ┣ 📂mapper
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+ ┣ 📂user
+ ┃ ┣ 📂controller
+ ┃ ┣ 📂dto
+ ┃ ┣ 📂entity
+ ┃ ┣ 📂mapper
+ ┃ ┣ 📂repository
+ ┃ ┗ 📂service
+
+```
+
+### Front
+
+```
+📦FrontEnd
+ ┣ 📂node_modules
+ ┣ 📂public
+ ┃ ┣ 📂audio
+ ┃ ┣ 📂image
+ ┃ ┃ ┣ 📂backGround
+ ┃ ┃ ┣ 📂button
+ ┃ ┃ ┣ 📂character
+ ┃ ┃ ┣ 📂explain
+ ┃ ┃ ┣ 📂game
+ ┃ ┃ ┃ ┣ 📂puzzleGame
+ ┃ ┃ ┃ ┃ ┗ 📂puzzlePiece
+ ┃ ┃ ┃ ┗ 📂trapGame
+ ┃ ┃ ┣ 📂house
+ ┃ ┃ ┣ 📂logo
+ ┃ ┃ ┣ 📂rank
+ ┃ ┃ ┣ 📂ready
+ ┃ ┃ ┣ 📂roleSelect
+ ┃ ┃ ┗ 📂tools
+ ┃ ┗ 📂scriptbackground
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂scripts
+ ┃ ┃ ┣ 📂tools
+ ┃ ┃ ┗ 📂views
+ ┃ ┃ ┃ ┣ 📂GamePage
+ ┃ ┃ ┃ ┃ ┗ 📂GameComps
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂Alert
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂CalculationGame
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂DrawingGame
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂GameModal
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂PuzzleGame
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂TrapGame
+ ┃ ┃ ┃ ┣ 📂Header
+ ┃ ┃ ┃ ┣ 📂LandingPage
+ ┃ ┃ ┃ ┣ 📂LoginPage
+ ┃ ┃ ┃ ┣ 📂MyPage
+ ┃ ┃ ┃ ┣ 📂PasswordChange
+ ┃ ┃ ┃ ┣ 📂RankPage
+ ┃ ┃ ┃ ┣ 📂RegisterPage
+ ┃ ┃ ┃ ┣ 📂SocketPage
+ ┃ ┃ ┃ ┗ 📂WithDrawl
+ ┃ ┣ 📂fonts
+ ┃ ┣ 📂hoc
+ ┃ ┣ 📂_actions
+ ┃ ┗ 📂_reducers
+
+```
+<br/>
+<br/>
+---
+
 ### 🕰️ 프로젝트 기간
 
 23.07.04 ~ 23.08.18
