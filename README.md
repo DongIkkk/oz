@@ -380,7 +380,8 @@ GitLab, Jira, DB의 컨벤션 규칙을 문서화 시켜 놓았습니다
 
 사진추가
 `Postman` 을 활용하여 API 문서를 작성하였습니다.
-
+API문서
+https://documenter.getpostman.com/view/23655032/2s946idrdQ
 <details>
 <summary>기획 및 회의록</summary>
 <details>
