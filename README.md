@@ -4,6 +4,22 @@
     <p>실시간 소통을 이용한 오즈의 마법사 게임</p>
     <hr>
 </div>
+
+
+### 🕰️ 프로젝트 기간
+
+23.07.04 ~ 23.08.18
+
+### 🧑‍🤝‍🧑 멤버 구성
+
+|김주하|강경인|김동익|김정훈|한성현|함소명|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|<img src="assets/team/김주하.png">|<img src="assets/team/강경인.png">|<img src="assets/team/김동익.png">|<img src="assets/team/김정훈.png">|<img src="assets/team/한성현.png">|<img src="assets/team/함소명.png">
+|팀장(FE/BE)|팀원(FE)|팀원(FE/BE)|팀원(FE/BE)|팀원(BE)|팀원(FE/BE)|
+|[Holdm2t1ght](https://github.com/Holdm2t1ght)|[gangins](https://github.com/gangins)|[DongIkkk](https://github.com/DongIkkk)|[hunsunsoo](https://github.com/hunsunsoo)|[HanSungHyeon](https://github.com/HanSungHyeon)|[Hamsomyeong](https://github.com/Hamsomyeong)
+
+---
+
 <div align=left>
 <h3><a href="https://www.notion.so/Team-Project-Template-c50ae63a026c47e4aa6f611574b6b59c">팀 노션</a>　|　
 <a href="https://www.figma.com/file/vPutCWx722sUBtGAEzay0D/MockUp?type=design&node-id=0-1&mode=design&t=1XcoFW54J6JxqH44-0"> FIGMA </a>　|　　
@@ -65,7 +81,506 @@
 
 </div>
 
+
+
+<br/>
+<br/>
+
 ---
+
+## :pushpin: 프로젝트 소개
+
+**1. 서비스 설명**
+
+### **개요**
+
+한줄 소개 : WebRTC와 WebSocket을 이용한 실시간 협동 게임
+서비스 명 : **Oz**
+
+### **타겟 🎯**
+
+온라인상 협동 게임을 하고 싶은 사람들
+기존 출시되어있는 게임에 흥미를 잃은 사람들
+
+👉 **친구와 함께 온라인 협동 게임을 하고 싶은 사람들**
+
+<br/>
+
+## **2. 기획 배경**
+
+### **배경**
+
+- 서로 부족함을 채워나가는 협동 게임으로 오즈의 마법사라는 테마를 더해 재미 요소를 극대화 시켰습니다. 또한 친구들과 다같이 노는 것을 좋아하는 사람들을 위해 얼굴을 보면서 게임 할 수 있고, 직접 대면하지 않아도 온란인에서 언제든 만날 수 있다는 장점이 있습니다.
+
+### **목적 🥅**
+
+**도로시를 집에 데려다주세요**
+
+### **의의**
+
+- 비대면 상황에서 직접 만나지 않고도 즐길 수 있는 온라인 웹 화상 게임
+- 친구와의 협동게임으로 서로의 부족함을 채워주는 재미효과
+
+<br/>
+
+## **3. 서비스 메인화면**
+
+<details>
+<summary>서비스 메인 화면 보기</summary>
+<div markdown="1">
+
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/55b2c4fc-ba87-4d21-bfe1-4a01c31be9ad"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d3f13966-34c7-4a28-9c9e-9d6d53ac8e27"> </td>
+    </tr>
+    <tr> 
+        <td> 회원가입 </td>
+        <td> 로그인 </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/79ed3124-6168-40ef-b999-2b22f2420395"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9bc72cd6-549d-404c-9670-ed255292c26a"> </td>
+    </tr>
+    <tr> 
+        <td> 카카오 로그인 </td>
+        <td> 비밀번호 변경 </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/e87025b9-335e-449a-90d5-3512c7c22968"> </td>
+        <td>  </td>
+    </tr>
+    <tr> 
+        <td> 마이페이지 </td>
+        <td>  </td>
+    </tr>
+</table>
+
+</div>
+</details>
+
+<br/>
+
+## **4. 세부 서비스**
+<details>
+<summary>서비스 세부 내용 보기</summary>
+<div markdown="1">
+    
+- 대기방에 접속 후부터 게임이 끝날 때까지 모든 기능을 WebRTC + WebSocket(Stomp.js + Redis)를 이용함
+
+### 게임 시작 전
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/bfe5bcf3-8fad-489a-82e0-c9e485fad3d5"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/04de5381-e4b0-4693-8d35-0d78bc27635c"> </td>
+    </tr>
+    <tr> 
+        <td> 방 만들기 </td>
+        <td> 방 접속하기 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 게임 시작 버튼을 통해 대기방 생성 가능 </br>
+            2. 하단 편지 버튼을 눌러 방 초대 코드 복사 가능
+        </td>
+        <td>
+            1. 초대 코드를 받은 유저는 방 접속하기 버튼 클릭 </br>
+            2. 초대 코드를 입력하여 게임 대기방으로 접속 가능
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c4f814bf-31ef-45c0-9388-7e5e4b63e185"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8b1412a8-4e4e-4f18-b269-df247aa601aa"> </td>
+    </tr>
+    <tr> 
+        <td> 대기방 </td>
+        <td> 역할 선택 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 대기방 접속 유저들과 실시간 채팅 구현 </br>
+            2. 모험 시작 버튼을 누르면 팀 생성 후 역할 선택으로 넘어감
+        </td>
+        <td>
+            1. 각자의 역할을 중복되지 않게 선택할 수 있음 </br>
+            2. 모험 시작 버튼을 누르면 프롤로그로 넘어감
+        </td>
+    </tr>
+</table>
+
+</br>
+
+### 게임 외 제공 서비스
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d8ccd4ad-daf7-4071-afb8-bc1d47ea4bcb"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/31a642bf-74fd-482c-a32c-397e5652d438"> </td>
+    </tr>
+    <tr> 
+        <td> 스토리(일러스트 및 자막) </td>
+        <td> 스토리(초기 스크립트) </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 스토리 진행에 따른 일러스트 화면 및 자막 출력 </br>
+            2. 개인이 키업 또는 클릭으로 스킵 가능
+        </td>
+        <td>
+            1. 캐릭터 간 대화를 스크립트로 출력 </br>
+            2. 개인이 키업 또는 클릭으로 스킵 가능
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/483024ff-afa7-4667-ae28-c0c32be2b52b"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/10ccb060-0d85-45e0-badf-82d46c650c15"> </td>
+    </tr>
+    <tr> 
+        <td> 스토리(게임 진행 중 스크립트) </td>
+        <td> 스토리(에필로그) </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 게임 진행에 맞게 캐릭터 얼굴 변경 </br>
+            2. 스테이지에 맞는 배경 출력
+        </td>
+        <td>
+            1. 마지막 스토리 후 클리어 타임 출력 </br>
+            2. 대기방 또는 랭킹 페이지로 이동 가능
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/87edd8da-cf66-4a03-9c95-b20b0669e410"> </td>
+        <td>  </td>
+    </tr>
+    <tr> 
+        <td> 랭킹 페이지 </td>
+        <td>  </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 스테이지별 랭킹 확인 가능 </br>
+            2. 본인의 팀 랭킹 3위, 전체 랭킹 10위까지 조회
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
+</br>
+
+### 게임 공통 진행 흐름
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/bd7e8a1d-542a-482c-adab-52233638d610"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8413c05a-84b6-4e60-a439-11f0a11bb8a3"> </td>
+    </tr>
+    <tr> 
+        <td> 준비 화면 </td>
+        <td> 게임 방법 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 준비 완료/취소 버튼을 눌러 준비 상태 변경 가능 </br>
+            2. 준비 상태에 따라 모든 화면에서 체크로 나타냄
+        </td>
+        <td>
+            1. 메인 캐릭터/조력자별 게임 방법 설명 </br>
+            2. 진행 중에도 ? 버튼을 통해 확인 가능
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/95d7da66-b1ba-4ecc-a3e6-84351922e409"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d9afdb2e-9228-42be-ab33-93918f30ed91"> </td> 
+    </tr>
+    <tr> 
+        <td> 게임 클리어 </td>
+        <td> 게임 오버 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 게임 정답을 맞혔을 경우 클리어 출력 </br>
+            2. 다음 스테이지로 진행됨
+        </td>
+        <td>
+            1. 정답을 못 맞힌 경우 fail 출력 </br>
+            2. 같은 스테이지 준비 화면으로 돌아감
+        </td>
+    </tr>
+</table>
+</br>
+
+### 1 스테이지(사칙연산)
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/fbdd4b7c-9297-45d4-9b3c-0ffa925a3fa3"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/2e512164-e76c-4b12-a9c8-1a40faee7142"> </td>
+    </tr>
+    <tr> 
+        <td> 게임 방법 </td>
+        <td> 초기 화면(숫자판) </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 사칙연산 게임 방법 </br>
+            2. 조력자/허수아비별 설명 출력력
+        </td>
+        <td>
+            1. 모든 유저에게 숫자판을 보여 줌 </br>
+            2. 10초 후 분기된 화면으로 나누어짐
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/5869ebc7-4fde-40ba-aacd-7e142c13dd08"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d9afdb2e-9228-42be-ab33-93918f30ed91"> </td> 
+    </tr>
+    <tr> 
+        <td> 분기된 화면(조력자) </td>
+        <td> 분기된 화면(허수아비) </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 30초 동안 인당 2개씩 숫자판 선택 가능 </br>
+            2. 선택을 안 하면 랜덤 블록 하나가 6개 전달됨 </br>
+            3. 선택된 숫자는 표시되며 다시 클릭하면 취소됨
+        </td>
+        <td>
+            1. 조력자가 선택한 숫자 확인 가능 </br>
+            2. 숫자와 사칙연산 기호를 통해 계산식 생성 가능 </br>
+            3. 정답 입력 시 결과에 따라 성공/실패 출력
+        </td>
+    </tr>
+</table>
+</br>
+
+### 2 스테이지(함정 게임)
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c04a54f8-3f51-4169-bb42-4da7d4c4901b"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/eff62706-b6ca-4500-9dd7-4ac742c59bcd"> </td>
+    </tr>
+    <tr> 
+        <td> 게임 방법 </td>
+        <td> 사자 시점 화면 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 함정 게임 게임 방법 </br>
+            2. 조력자/사자별 설명 출력
+        </td>
+        <td>
+            1. 바라보고 있는 방향의 앞에 칸 색이 보여짐 </br>
+            2. 양옆 버튼을 통해 오른쪽, 왼쪽 방향 전환 가능 </br>
+            3. 윗 방향 버튼을 눌러 보는 방향으로 이동
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8515d790-3a5d-4d3b-b9dd-0a9577237be3"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/28e9fbe8-a982-4525-9ef7-4b93d7b22878"> </td> 
+    </tr>
+    <tr> 
+        <td> 조력자 화면(예시 1) </td>
+        <td> 조력자 화면(예시 2) </td>
+    </tr>
+    <tr> 
+        <td>
+            파란색 시점 발판과 유령(함정) 확인 가능
+        </td>
+        <td>
+            초록색 시점 발판과 폭탄(함정) 확인 가능
+        </td>
+    </tr>
+</table>
+<table>
+    <tr> 
+        <td>
+            다른 조력자는 빨간색 시점 발판과 출발 지점, 도착 지점을 알 수 있다
+        </td>
+    </tr>
+</table>
+</br>
+
+### 3 스테이지(상형문자 게임)
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/66bc16f2-8d67-4e88-ade3-c087f494a690"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9f5ecd9f-49f3-4024-b4cb-5249755a6f58"> </td>
+    </tr>
+    <tr> 
+        <td> 게임 방법 </td>
+        <td> 양철 나무꾼 화면 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 상형문자 게임 방법 </br>
+            2. 조력자/양철 나무꾼별 설명 출력력
+        </td>
+        <td>
+            1. 전체 조각판 중 세 개가 비어져 있는 상태로 출력 </br>
+            2. 오른쪽 퍼즐 조각을 드래그 앤 드롭하여 입력 가능
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c8c9df12-399c-460c-9ee9-2903b3d14cab"> </td>
+        <td>  </td> 
+    </tr>
+    <tr> 
+        <td> 조력자 화면 예시 </td>
+        <td> </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 나누어진 하트 중 한 조각이 보임 </br>
+            2. 보이는 퍼즐을 말로 설명할 수 있음
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
+</br>
+
+### 4 스테이지(이어그리기 게임)
+<table>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/aa9fd593-2a5f-448d-9209-433d06610f8b"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/77e2fd0a-ffb1-4311-a396-9bc3fa7f2e4b"> </td>
+    </tr>
+    <tr> 
+        <td> 게임 방법 </td>
+        <td> 조력자 화면(그리는 사람 시점) </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 이어그리기 게임 방법 </br>
+            2. 조력자/도로시별 설명 출력
+        </td>
+        <td>
+            1. 3초의 준비 시간을 준 뒤 그릴 수 있다 </br>
+            2. 전체 리셋, 지우개, 펜 선택 가능 </br>
+            3. 조력자들은 그리는 화면이 보이고, 도로시는 가려져 있다
+        </td>
+    </tr>
+    <tr> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/3c6aa49c-e431-4975-b176-c08b67a4a7a2"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/398beea3-1248-41fe-8b26-4dbe39e8569a"> </td>
+    </tr>
+    <tr> 
+        <td> 도로시 화면 </td>
+        <td> 정답 입력 시 조력자 화면 </td>
+    </tr>
+    <tr> 
+        <td>
+            1. 모든 사람이 그린 이후에 답을 입력할 수 있음 </br>
+            2. 정답에 따라 분기점 나뉘어짐
+        </td>
+        <td>
+            정답 여부에 따라 결과 출력
+        </td>
+    </tr>
+</table>
+</br>
+
+</div>
+</details>
+
+## :pushpin: 활용 기술
+
+---
+
+## 1. WebRTC
+
+### WebRTC란?
+
+사진+설명
+
+## 2. WebSocket
+
+### WebSocket이란?
+
+사진+설명
+
+---
+
+## 🏗️**서비스 아키텍쳐**
+
+## <img width="100%" src="https://github.com/fire4bird/oz/assets/105307294/f9fcb09b-05da-472e-9c99-5cbd66b0b93c"/> 
+
+
+## 🔎**서비스 기능 소개**
+
+---
+
+### 1. 사칙연산 게임
+
+- 주어진 판을 외워 제시된 답을 맞춘다.<br>
+  ![사칙연산게임](assets/gif/사칙연산_허수아비.gif)
+
+### 2. 함정 게임
+
+- 조력자들이 알려주는 곳으로 믿고 이동한다.<br>
+  ![함정게임](assets/gif/함정게임_클리어.gif)
+
+### 3. 상형문자 게임
+
+- 조력자들이 알려주는 상형문자의 디테일과 맞는 그림을 판에 넣는다.<br>
+  ![상형문자게임](assets/gif/상형문자게임_클리어_허수아비시점.gif)
+
+### 4. 이어그리기 게임
+
+- 그림을 차례로 이어그려 도로시가 답을 맞출 수 있도록 한다.<br>
+  ![이어그리기게임](assets/gif/이어그리기_클리어_허수아비시점.gif)
+
+## 👨‍💻 **프로젝트 진행**
+
+---
+
+## **1. GitLab**
+
+- Git 컨벤션 및 Git flow 를 정하여 작업하였습니다.
+
+- `work branch` , `develop branch` , `realese brach` 등 기능별, 용도별로 브랜치를 분기하여 사용하였습니다.
+
+- 개발에 사용한 자세한 Git 컨벤션 및 GitFlow 에 적어 놓았습니다
+
+## 2. Jira
+
+- 한 주를 시작하는 월요일에 이번주에 진행되어야할 이슈들을 백로그에 등록 했습니다.
+- 에픽은 페이지 단위로 구성하였습니다.
+- 실시간으로 작업내용을 반영하여 팀원들이 작업 진행 상황을 서로 공유 할 수 있도록 하였습니다
+
+## 3. Notion
+
+데일리 스크럼을 진행하면서 하루동안의 예상되는 이슈사항을 체크 했습니다.
+
+회의록 작성을 통해 회의 내용을 문서화 해놓았습니다.
+
+GitLab, Jira, DB의 컨벤션 규칙을 문서화 시켜 놓았습니다
+
+전체 일정 관리를 점검하며 프로젝트를 점검하였습니다.
+
+팀원 모두가 공유해얗는 자료 및 링크는 노션에 정리 하여 쉽게 찾아 볼 수 있도록 하였습니다
+
+### UI/UX
+
+<!-- ![image-20220408111429288](README.assets/image-20220408111429288.png) -->
+
+사진추가
+
+`Figma` 를 사용하여 페이지 단위로 상세 UI/UX를 작성했습니다.
+
+### ERD
+
+![erd](assets/erd.png)
+
+`erdCloud` 를 사용하여 erd 설계를 하였습니다.
+
+## API
+
+<!-- ![image-20220408111504992](README.assets/image-20220408111504992.png) -->
+
+사진추가
+`Postman` 을 활용하여 API 문서를 작성하였습니다.
+
+API문서
+https://documenter.getpostman.com/view/23655032/2s946idrdQ
 
 ## 🗂️ 프로젝트 파일 구조
 
@@ -226,163 +741,8 @@
  ┃ ┗ 📂_reducers
 
 ```
-<br/>
-<br/>
----
 
-### 🕰️ 프로젝트 기간
 
-23.07.04 ~ 23.08.18
-
-### 🧑‍🤝‍🧑 멤버 구성
-
-|김주하|강경인|김동익|김정훈|한성현|함소명|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|<img src="assets/team/김주하.png">|<img src="assets/team/강경인.png">|<img src="assets/team/김동익.png">|<img src="assets/team/김정훈.png">|<img src="assets/team/한성현.png">|<img src="assets/team/함소명.png">
-|팀장(FE/BE)|팀원(FE)|팀원(FE/BE)|팀원(FE/BE)|팀원(BE)|팀원(FE/BE)|
-|[Holdm2t1ght](https://github.com/Holdm2t1ght)|[gangins](https://github.com/gangins)|[DongIkkk](https://github.com/DongIkkk)|[hunsunsoo](https://github.com/hunsunsoo)|[HanSungHyeon](https://github.com/HanSungHyeon)|[Hamsomyeong](https://github.com/Hamsomyeong)
-
-
-## :pushpin: 프로젝트 소개
-
-**1. 서비스 설명**
-
-### **개요**
-
-한줄 소개 : WebRTC와 WebSocket을 이용한 실시간 협동 게임
-서비스 명 : **Oz**
-
-### **타겟 🎯**
-
-온라인상 협동 게임을 하고 싶은 사람들
-기존 출시되어있는 게임에 흥미를 잃은 사람들
-
-👉 **친구와 함께 온라인 협동 게임을 하고 싶은 사람들**
-
-## **2. 기획 배경**
-
-### **배경**
-
-- 서로 부족함을 채워나가는 협동 게임으로 오즈의 마법사라는 테마를 더해 재미 요소를 극대화 시켰습니다. 또한 친구들과 다같이 노는 것을 좋아하는 사람들을 위해 얼굴을 보면서 게임 할 수 있고, 직접 대면하지 않아도 온란인에서 언제든 만날 수 있다는 장점이 있습니다.
-
-### **목적 🥅**
-
-**도로시를 집에 데려다주세요**
-
-### **의의**
-
-- 비대면 상황에서 직접 만나지 않고도 즐길 수 있는 온라인 웹 화상 게임
-- 친구와의 협동게임으로 서로의 부족함을 채워주는 재미효과
-
-## **3. 서비스 메인화면**
-
-![로그인](assets/gif/login.gif)
-![방만들기](assets/gif/방만들기.gif)
-![대기방](assets/gif/대기방.gif)
-![역할선택](assets/gif/역할선택.gif)
-
----
-
-## :pushpin: 활용 기술
-
----
-
-## 1. WebRTC
-
-### WebRTC란?
-
-사진+설명
-
-## 2. WebSocket
-
-### WebSocket이란?
-
-사진+설명
-
----
-
-## 🏗️**서비스 아키텍쳐**
-
-## <img width="100%" src="https://github.com/fire4bird/oz/assets/105307294/f9fcb09b-05da-472e-9c99-5cbd66b0b93c"/> 
-
-
-## 🔎**서비스 기능 소개**
-
----
-
-### 1. 사칙연산 게임
-
-- 주어진 판을 외워 제시된 답을 맞춘다.<br>
-  ![사칙연산게임](assets/gif/사칙연산_허수아비.gif)
-
-### 2. 함정 게임
-
-- 조력자들이 알려주는 곳으로 믿고 이동한다.<br>
-  ![함정게임](assets/gif/함정게임_클리어.gif)
-
-### 3. 상형문자 게임
-
-- 조력자들이 알려주는 상형문자의 디테일과 맞는 그림을 판에 넣는다.<br>
-  ![상형문자게임](assets/gif/상형문자게임_클리어_허수아비시점.gif)
-
-### 4. 이어그리기 게임
-
-- 그림을 차례로 이어그려 도로시가 답을 맞출 수 있도록 한다.<br>
-  ![이어그리기게임](assets/gif/이어그리기_클리어_허수아비시점.gif)
-
-## 👨‍💻 **프로젝트 진행**
-
----
-
-## **1. GitLab**
-
-- Git 컨벤션 및 Git flow 를 정하여 작업하였습니다.
-
-- `work branch` , `develop branch` , `realese brach` 등 기능별, 용도별로 브랜치를 분기하여 사용하였습니다.
-
-- 개발에 사용한 자세한 Git 컨벤션 및 GitFlow 에 적어 놓았습니다
-
-## 2. Jira
-
-- 한 주를 시작하는 월요일에 이번주에 진행되어야할 이슈들을 백로그에 등록 했습니다.
-- 에픽은 페이지 단위로 구성하였습니다.
-- 실시간으로 작업내용을 반영하여 팀원들이 작업 진행 상황을 서로 공유 할 수 있도록 하였습니다
-
-## 3. Notion
-
-데일리 스크럼을 진행하면서 하루동안의 예상되는 이슈사항을 체크 했습니다.
-
-회의록 작성을 통해 회의 내용을 문서화 해놓았습니다.
-
-GitLab, Jira, DB의 컨벤션 규칙을 문서화 시켜 놓았습니다
-
-전체 일정 관리를 점검하며 프로젝트를 점검하였습니다.
-
-팀원 모두가 공유해얗는 자료 및 링크는 노션에 정리 하여 쉽게 찾아 볼 수 있도록 하였습니다
-
-### UI/UX
-
-<!-- ![image-20220408111429288](README.assets/image-20220408111429288.png) -->
-
-사진추가
-
-`Figma` 를 사용하여 페이지 단위로 상세 UI/UX를 작성했습니다.
-
-### ERD
-
-![erd](assets/erd.png)
-
-`erdCloud` 를 사용하여 erd 설계를 하였습니다.
-
-## API
-
-<!-- ![image-20220408111504992](README.assets/image-20220408111504992.png) -->
-
-사진추가
-`Postman` 을 활용하여 API 문서를 작성하였습니다.
-
-API문서
-https://documenter.getpostman.com/view/23655032/2s946idrdQ
 <details>
 <summary>기획 및 회의록</summary>
 <details>
