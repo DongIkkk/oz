@@ -4,14 +4,14 @@ spring:
   datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
     #   배포된 db
-        url: jdbc:mysql://i9b104.p.ssafy.io:3306/oz?allowPublicKeyRetrieval=true&useSSL=false
-        username: fire4bird
-        password: fire4bird
+        # url: 지우기
+        # username: 지우기
+        # password: 지우기
     #    배포 db 쓰려면 여기까지 3줄 주석 제거
     #   로컬 db
-#    url: jdbc:mysql://localhost:3306/oz?allowPublicKeyRetrieval=true&useSSL=false
-#    username: ssafy
-#    password: ssafy
+#    url: 지우기
+#    username: 지우기
+#    password: 지우
   jpa:
     properties:
       hibernate:
@@ -23,8 +23,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: project534900
-    password: vufykbyvgkxxlrkm
+    # username: 지우기
+    # password: 지우기
     properties:
       mail:
         smtp:
@@ -42,18 +42,18 @@ spring:
     cache: false
 
   redis:
-    host: i9b104.p.ssafy.io
-    #    host: localhost
+    # host: 지우기
+    host: localhost
     port: 6379
-    password: fire4bird
+    # password: 지우기
 
 jwt:
-  secret-key: asdasdasdasdasdasdasdassdasdasdasdasdassdasd
+  # secret-key: 지우기
   access-token-valid-time: 60000
   refresh-token-valid-time: 60000
 
 kakao:
-  client-id: 581ca2cce261061e9424b527fdadf174
+  # client-id: 
   redirect-uri: https://i9b104.p.ssafy.io/kakaoLogin
   token-url: https://kauth.kakao.com/oauth/token
   info-url: https://kapi.kakao.com/v2/user/me
