@@ -131,23 +131,23 @@
 
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/55b2c4fc-ba87-4d21-bfe1-4a01c31be9ad"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d3f13966-34c7-4a28-9c9e-9d6d53ac8e27"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/1e013500-1bb3-4142-9e5f-d01123d6db15"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/a0cd7e8a-9e4c-48e0-b0db-9c4801a637f6"> </td>
     </tr>
     <tr> 
         <td> 회원가입 </td>
         <td> 로그인 </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/79ed3124-6168-40ef-b999-2b22f2420395"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9bc72cd6-549d-404c-9670-ed255292c26a"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c1102e3d-46c9-4b2e-91d5-71357264c335"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/534c72ca-bcb2-4df9-a371-8c2ecf85fbc5"> </td>
     </tr>
     <tr> 
         <td> 카카오 로그인 </td>
         <td> 비밀번호 변경 </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/e87025b9-335e-449a-90d5-3512c7c22968"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8a3f7653-bc63-47b3-bffd-7324b0a9e15d"> </td>
         <td>  </td>
     </tr>
     <tr> 
@@ -171,8 +171,8 @@
 ### 게임 시작 전
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/bfe5bcf3-8fad-489a-82e0-c9e485fad3d5"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/04de5381-e4b0-4693-8d35-0d78bc27635c"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8fa78be1-9090-4a24-a00d-e1d73cb193e2"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/428fbfd9-fa92-48fa-8423-63cce2b4db1a"> </td>
     </tr>
     <tr> 
         <td> 방 만들기 </td>
@@ -189,8 +189,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c4f814bf-31ef-45c0-9388-7e5e4b63e185"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8b1412a8-4e4e-4f18-b269-df247aa601aa"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/1948deef-fc08-4d97-9d53-b2b319445dad"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/afd8726a-3c75-436e-aaed-728911eb6d15"> </td>
     </tr>
     <tr> 
         <td> 대기방 </td>
@@ -213,8 +213,8 @@
 ### 게임 외 제공 서비스
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d8ccd4ad-daf7-4071-afb8-bc1d47ea4bcb"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/31a642bf-74fd-482c-a32c-397e5652d438"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/2cff4477-4395-41b6-a1af-33be47c12e7b"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9d589e6d-8cc7-45c2-9f4c-3b9ea2ca37e6"> </td>
     </tr>
     <tr> 
         <td> 스토리(일러스트 및 자막) </td>
@@ -231,8 +231,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/483024ff-afa7-4667-ae28-c0c32be2b52b"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/10ccb060-0d85-45e0-badf-82d46c650c15"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/6c019fb3-cab2-4fa6-bfdd-a0cce9e390c0"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/75fb1a72-21cd-4a83-8dd0-aa0c975405f7"> </td>
     </tr>
     <tr> 
         <td> 스토리(게임 진행 중 스크립트) </td>
@@ -249,7 +249,7 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/87edd8da-cf66-4a03-9c95-b20b0669e410"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/96ac1e38-a2a6-43a3-83db-70ff1c16ca1c"> </td>
         <td>  </td>
     </tr>
     <tr> 
@@ -270,8 +270,8 @@
 ### 게임 공통 진행 흐름
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/bd7e8a1d-542a-482c-adab-52233638d610"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8413c05a-84b6-4e60-a439-11f0a11bb8a3"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/b9233e54-292e-46f8-aae8-761f73324437"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9e35ab32-f636-48dc-a873-6187790f8011"> </td>
     </tr>
     <tr> 
         <td> 준비 화면 </td>
@@ -288,8 +288,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/95d7da66-b1ba-4ecc-a3e6-84351922e409"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d9afdb2e-9228-42be-ab33-93918f30ed91"> </td> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/a8eee8dc-329b-4663-b8ff-0384b1ffa778"> </td> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c2804b9d-1ade-4b31-91da-92dddae8204a"> </td>
     </tr>
     <tr> 
         <td> 게임 클리어 </td>
@@ -311,7 +311,7 @@
 ### 1 스테이지(사칙연산)
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/fbdd4b7c-9297-45d4-9b3c-0ffa925a3fa3"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/49f88086-7259-419c-a0f5-17cf386e8b05"> </td>
         <td> <img src="https://github.com/fire4bird/oz/assets/105307294/2e512164-e76c-4b12-a9c8-1a40faee7142"> </td>
     </tr>
     <tr> 
@@ -329,8 +329,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/5869ebc7-4fde-40ba-aacd-7e142c13dd08"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d9afdb2e-9228-42be-ab33-93918f30ed91"> </td> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/297bce9b-680b-493f-ae79-7b6ecb590016"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/1e8e4772-a677-4c3e-bfa2-e4047aa688bd"> </td> 
     </tr>
     <tr> 
         <td> 분기된 화면(조력자) </td>
@@ -354,8 +354,8 @@
 ### 2 스테이지(함정 게임)
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c04a54f8-3f51-4169-bb42-4da7d4c4901b"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/eff62706-b6ca-4500-9dd7-4ac742c59bcd"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/ec320fea-accd-45f6-a489-b0f736c8bce0"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/809fa26c-b89f-4b9a-95d1-2b0e03800bed"> </td>
     </tr>
     <tr> 
         <td> 게임 방법 </td>
@@ -373,8 +373,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8515d790-3a5d-4d3b-b9dd-0a9577237be3"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/28e9fbe8-a982-4525-9ef7-4b93d7b22878"> </td> 
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8e5cf30b-e1a1-4479-bc98-c45180ad4e49"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/e8ca091d-3665-4cac-b01c-def4ebf8c98d"> </td> 
     </tr>
     <tr> 
         <td> 조력자 화면(예시 1) </td>
@@ -401,8 +401,8 @@
 ### 3 스테이지(상형문자 게임)
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/66bc16f2-8d67-4e88-ade3-c087f494a690"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9f5ecd9f-49f3-4024-b4cb-5249755a6f58"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c29227f3-cb6c-4806-8e4d-a3344c9b471c"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8465b155-e80c-4359-b286-a26670b3bbcb"> </td>
     </tr>
     <tr> 
         <td> 게임 방법 </td>
@@ -419,7 +419,7 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/c8c9df12-399c-460c-9ee9-2903b3d14cab"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/9ddb5cf5-c52b-44a0-9e75-85c0d9c09b87"> </td>
         <td>  </td> 
     </tr>
     <tr> 
@@ -440,8 +440,8 @@
 ### 4 스테이지(이어그리기 게임)
 <table>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/aa9fd593-2a5f-448d-9209-433d06610f8b"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/77e2fd0a-ffb1-4311-a396-9bc3fa7f2e4b"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/8e97edb5-413f-4433-a01a-caead015baed"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/05ef4869-b16c-446d-96e9-5f5eaed88d29"> </td>
     </tr>
     <tr> 
         <td> 게임 방법 </td>
@@ -459,8 +459,8 @@
         </td>
     </tr>
     <tr> 
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/3c6aa49c-e431-4975-b176-c08b67a4a7a2"> </td>
-        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/398beea3-1248-41fe-8b26-4dbe39e8569a"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/d05fd299-74c3-48e0-b072-4e4780c7f4d4"> </td>
+        <td> <img src="https://github.com/fire4bird/oz/assets/105307294/529c5e53-ae8c-4a29-a2d8-2f4519aa0dc5"> </td>
     </tr>
     <tr> 
         <td> 도로시 화면 </td>
@@ -501,7 +501,7 @@
 
 ## 🏗️**서비스 아키텍쳐**
 
-## <img width="100%" src="https://github.com/fire4bird/oz/assets/105307294/f9fcb09b-05da-472e-9c99-5cbd66b0b93c"/> 
+## <img width="100%" src="https://github.com/fire4bird/oz/assets/105307294/638538b9-2e68-439b-9e0f-bde1dd65dbf7"/> 
 </br>
 
 ## 👨‍💻 **프로젝트 진행**
